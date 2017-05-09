@@ -74,7 +74,7 @@ editor.autoactivate = true
 moai = { entrypoints = { "main.lua", "source/main.lua" } }
 
 -- to specify language to use in the IDE (requires a file in cfg/i18n folder)
-language = "ru"
+language = "cn"
 
 -- to change background color (or other colors in the IDE);
 -- see cfg/tomorrow.lua for example/details on what other colors to change
@@ -83,7 +83,7 @@ styles.text = {bg = {240,240,220}}
 -- to change the default color scheme; check tomorrow.lua for the list
 -- of supported schemes or use cfg/scheme-picker.lua to pick a scheme.
 -- (no longer needed in v1.21+) local G = ... -- this now points to the global environment
-styles = loadfile('cfg/tomorrow.lua')('TomorrowNight')
+styles = loadfile('cfg/tomorrow.lua')('Monokai')
 -- also apply the same scheme to Output and Console windows
 stylesoutshell = styles
 

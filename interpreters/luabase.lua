@@ -14,7 +14,7 @@ end
 return {
   name = ("Lua%s"):format(name or version or ""),
   description = ("Lua%s interpreter with debugger"):format(name or version or ""),
-  api = {"baselib"},
+  api = {"baselib","u3dtolua"},
   luaversion = version or '5.1',
   fexepath = exePath,
   frun = function(self,wfilename,rundebug)
